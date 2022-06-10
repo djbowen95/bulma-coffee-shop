@@ -1,40 +1,55 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
     <title>Bulma Coffee Shop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar has-shadow is-white">
-        <!-- Logo / Branch -->
-        <div class="navbar-brand">
+      <!-- Logo / Branch -->
+      <div class="navbar-brand">
         <a class="navbar-item">
-            <img src="assets/logo.png" alt="Site logo, a face in an orange coffee cup and the words 'ninja coffee'." style="max-height: 70px" class="py-2 px-2">
+          <img
+            src="assets/logo.png"
+            alt="Site logo, a face in an orange coffee cup and the words 'ninja coffee'."
+            style="max-height: 70px"
+            class="py-2 px-2"
+          />
         </a>
         <a class="navbar-burger" id="burger">
-            <span></span>
-            <span></span>
-            <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
-        </div>
+      </div>
 
-        <div class="navbar-menu" id="nav-links">
-            <a class="navbar-end">
-                <a class="navbar-item">My Account</a>
-                <a class="navbar-item">Shopping Cart (0)</a>
-            </a>
-        </div>
+      <div class="navbar-menu" id="nav-links">
+        <a class="navbar-end">
+          <a class="navbar-item">My Account</a>
+          <a class="navbar-item">Shopping Cart (0)</a>
+        </a>
+      </div>
     </nav>
 
+    <div class="section pt-4 pb-0">
+      <nav class="breadcrumb has-arrow-separator">
+        <ul class="container is-size-7">
+          <li><a class="has-text-grey">Coffee Ninja</a></li>
+          <li><a class="has-text-grey">Shop</a></li>
+          <li class="is-active"><a>Docker Dark Roast</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script src="index.js"></script>
 
-
-</body>
-<script src="index.js"></script>
-
-<!-- Experimenting with fonts
+  <!-- Experimenting with fonts
     <h1 class="is-size-1"> Hello, Bulma! </h1>
     <h1 class="is-size-1 has-text-weight-light"> Hello, Bulma! </h2>
     <h2 class="is-size-2"> This is a 'size-2' sentence. </h2>
@@ -67,5 +82,4 @@
     <div class="section">
         <div class="container has-background-link has-text-weight-bold">I've put this container inside a <section></section> to possibly highlight the difference between the two. </div>
     </div> -->
-
 </html>
